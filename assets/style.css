@@ -1,0 +1,71 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 101, 142, 0.9009978991596639) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  top: 100px;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.title-login {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+}
+.horizontal {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color: rgb(126, 124, 124);
+  height: 1px;
+}
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid rgb(121, 118, 118);
+  margin: 0 auto;
+  padding-right: 30px;
+}
+a.forgot-pwd {
+  margin-left: 36.5px;
+  text-decoration: none;
+  color: rgb(131, 125, 125);
+  padding-left: 2px;
+}
+
+.btn-submit {
+  margin: 0 36.5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(31, 127, 182); 
+}
+
+p {
+  margin: 0 auto;
+}
+
+a.sign-up {
+  text-decoration: none;
+  color:rgb(31, 127, 182); 
+}
